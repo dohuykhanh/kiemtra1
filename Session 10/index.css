@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  font-family: "PT Serif", serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("./back.jpg");
+  
+  background-size: full;
+}
+
+.container {
+  padding: 0 375px 0 375px;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.main-container > .main-container__left {
+  max-width: 770px;
+}
+
+.main-container > .main-container__left > input {
+  height: 50px;
+  width: 370px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  padding: 2px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.left-content__posts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-top: -30px;
+  
+}
+
+.posts-item {
+  margin-top: 30px;
+  margin-right: 30px;
+  width: 370px;
+  text-align: center;
+  padding-bottom: 14px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.posts-item > img {
+  height: auto;
+  object-fit: cover;
+  width: 370px;
+}
+
+.posts-item > .post-tag {
+  font-size: 12px;
+  line-height: 16px;
+  color: #c9a96e;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.posts-item > .post-des {
+  margin-top: 4px;
+  color: #171717;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.posts-item > .post-date {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+}
+.tiude{
+  margin-top: 40px;
+  margin-left: 450px;
+  font-size: 50px;
+  line-height: 16px;
+}
+
+
+
+
+
+
+
+
